@@ -8,13 +8,13 @@ import TrafficLight from "./TrafficLight"
 //MyStyles
 const homeDivContainer = {
 	width:"100%",
-	backgroundColor:"blue"
+	height:"100vh"
 }
 
 //create your first component
 const Home = () => {
 	return (
-		<div style={homeDivContainer}>
+		<div className="container-fluid d-flex justify-content-center homeDivContainer bg-dark"  style={homeDivContainer}>
 			<TrafficLight/>
 		</div>
 	);

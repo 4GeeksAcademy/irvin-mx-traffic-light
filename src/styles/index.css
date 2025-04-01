@@ -14,3 +14,26 @@ body{
     padding:0;
     box-sizing: border-box;
 }
+
+.light{
+        width: 180px;
+        height: 180px;
+        background-color: white;
+        border-radius: 50%;
+    }
+
+.red{
+    background-color:red;
+}
+
+.yellow{
+    background-color:yellow;
+}
+
+.green{
+    background-color:green;
+}
+
+.selected{
+    box-shadow: white 15px -1px;
+}
